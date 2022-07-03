@@ -733,8 +733,8 @@
     }
     
     #call_xiangxi a{
-        text-decoration: none;
-        color: #5a5a5a;
+        text_decoration:none;
+        color:#5a5a5a;
     }
 
     #call_wrap,#call_xiangxi{
