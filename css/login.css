@@ -1,0 +1,70 @@
+html{
+    font-size: 16px;
+}
+body{
+    background:url(../img/bg3.jpg);
+    background-size: cover;
+    display: grid;
+    height: 100%;
+    overflow: hidden;
+    place-items: center;
+}
+h2{
+    font-weight: 300;
+    margin: 0;
+    margin-bottom: 1.25rem;
+}
+#login_a{
+    color: #333;
+    font-size: 0.9rem;
+    margin: 1.5rem 0;
+    text-decoration: none;
+}
+#login{
+    position: absolute;
+    top: 50%;
+    margin-top: -200px;
+    left: 50%;
+    margin-left: -200px;
+    background:#fff;
+    width: 320px;
+    height: 420px;
+    border-radius: 25px;
+    text-align: center;
+    padding: 5px 40px;
+    box-sizing: border-box;
+}
+#login_btn{
+    background:#86c9ff;
+    border: none;
+    color: #fff;
+    cursor: pointer;    /*鼠标经过时显示鼠形鼠标*/
+    font-size: 1.0rem;
+    margin-top: 1.5rem;
+    border-radius: 3rem;   /*为元素添加圆角边框*/
+    width: 50%;
+    height: 50px;
+}
+#login_btn:hover{
+    background-color: #59c2a0;
+}
+form{
+    width: 100%;
+    height: 100%;
+    background:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0.3rem;
+    box-sizing: border-box;
+}
+input{
+    border: none;
+    background:rgba(238, 238, 238, 0.945);
+    margin: 0.5rem 0;
+    padding: 0.9rem;
+    width: 80%;
+}
+
+/*Author website-https://yuurio.github.io*/
